@@ -1,0 +1,149 @@
+:root{
+    -colortexto: #49454567;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Roboto';
+    background-color: white;
+    /* background: #4568DC;  /* fallback for old browsers */
+   /*  background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    justify-content: center; 
+    /* align-items: center;  */
+
+}
+
+h1{
+    margin-bottom: 1px;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: 500;
+}
+
+form{
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+.form{
+    width: 200%;
+    margin: auto;
+}
+
+input{
+    background: none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: nome;
+    border-bottom: 1px solid var(-colortexto);
+}
+
+input:focus{
+    outline: none;
+    color: #5e5d5d;
+}
+
+label{
+    color: var(-colortexto);
+    font-size: 14px;
+    left: 5px;
+   top: 10px;
+   transition: 0.5 ease-in-out all;
+   pointer-events: none;    
+}
+.form-check{
+    padding: auto;
+}
+.grupo1{
+    padding: auto;
+}
+.TEXTO1{
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: 500;
+    padding: 25px;
+    box-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+button{
+    font-family: 'Roboto';
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    color: white;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-check-input[type=radio]:checked + i:before{
+	transform: scale(1);
+	opacity: 1;
+}
+.marketing label,.rgpd{display:inline-block;font-weight:normal;}
+.rgpd{width:90%;}
+mark{float:right;}
+
+.form-check-input input,
+.form-check-select select{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+ 
+@media screen and (max-width:500px) {
+    .form{
+        width: 80%;
+    }
+    
+}
+
+/* input:focus~label{
+    top: -14px;
+    font-size: 12px;
+    color: #2196f3;
+} */
