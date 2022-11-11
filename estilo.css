@@ -81,20 +81,6 @@ label{
 }
 
 
-.form-check-input[type=radio]:checked + i:before{
-	transform: scale(1);
-	opacity: 1;
-}
-.marketing label,.rgpd{display:inline-block;font-weight:normal;}
-.rgpd{width:90%;}
-mark{float:right;}
-
-.form-check-input input,
-.form-check-select select{
-	appearance: none;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-}
 
 .map-responsive{
 

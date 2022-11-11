@@ -221,14 +221,14 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 16px;
-    color: #fff;
+    color: #ffff;
   }
   
   .foo-items h4 {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 25px;
-    color: #fff;
+    color: #ffff;
   }
   
   .foo-items p {
@@ -236,7 +236,7 @@
     margin-bottom: 12px;
     transition: color 0.4s;
     cursor: pointer;
-    color: #fff;
+    color: #ffff;
   }
   .foo-items p:hover {
     color: #ff324d;
@@ -244,7 +244,7 @@
   
   .foo-icon i {
     font-size: 1.3em;
-    color: #fff;
+    color: #ffff;
     margin: 0 7px;
     margin-top: 10px;
     transition: transform 2s, color 0.4s;
